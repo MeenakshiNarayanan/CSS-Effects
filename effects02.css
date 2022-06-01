@@ -1,0 +1,41 @@
+.box{
+	background-colr: #663298;
+	border-radius: 15px;
+	width: 300px;
+	height: 300px;
+	animation-name: rotate;
+	animation-iteration-count: 4;
+	animation-delay: 2s;
+}
+@keyframes rotate{
+	0%{
+		transform: rotate(0);
+	}
+	100%{
+		transform: rotate(360deg);
+	}
+}
+.pagination{
+	display: inline-block;
+}
+.pagination a {
+	border: 1.8px solid #ffbdfc;
+
+}
+.pagination a{
+	color: black;
+	float: left;
+	padding: 8px 16px;
+	text-decoration: none;
+
+}
+.pagination a{
+	margin: 0 4px;
+}
+.pagination a.active{
+	background-color: #663498;
+	color: white;
+}
+.pagination a:hover:not(.active){
+	background-color: #d8b4fc;
+}
